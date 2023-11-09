@@ -38,3 +38,18 @@ let name = "Nicolas";
 let age = 25;
 let template = `Hola soy ${name} y tengo ${age}`;
 ```
+
+## objetos literales
+
+Toda variable en JavaScript tiene un prototype (un ADN basicamente), los objetos literales tambien son conocidos como diccionarios en otros lenguajes de programacion, suelen ser objetos con clave valor. los valores pueden ser cualquier tipo de datos de JavaScript.
+
+```javascript
+const person = {
+  name: "Nicolas",
+  lastname: "Perez",
+  age: 20,
+  getFullName: ()=> return `${name} ${lastname}`,
+};
+
+const person2 = person; // copia de la referencia el espacio en memoria
+```
