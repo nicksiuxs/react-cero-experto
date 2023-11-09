@@ -53,3 +53,15 @@ const person = {
 
 const person2 = person; // copia de la referencia el espacio en memoria
 ```
+
+## Arreglos
+
+Coleccion de informacion que se encuentra dentro de una misma variable.
+
+```javascript
+const fruits = new Array();
+const vegetables = [];
+
+vegetables.push("onion");
+fruits.push("apple");
+```
