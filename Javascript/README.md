@@ -28,3 +28,13 @@ Se utiliza cuando se quiere que las variables cambien su valor y/o su tipo.
 let total = 0;
 total = +20;
 ```
+
+## template String
+
+Permite habilitar el uso de expresiones de javascript incrustradas. Se pueden utilizar cadenas de caracteres de mas de una linea y funcionalidades de interpolacion de strings. Respet la posicion y los saltos de linea.
+
+```javascript
+let name = "Nicolas";
+let age = 25;
+let template = `Hola soy ${name} y tengo ${age}`;
+```
